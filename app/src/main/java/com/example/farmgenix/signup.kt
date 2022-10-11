@@ -18,11 +18,17 @@ class signup : AppCompatActivity() {
         btnSignIn.setOnClickListener {
             loginUser()
         }
+
+        text_one_donttwobone.setOnClickListener {
+            startActivity(Intent(this,signin::class.java))
+        }
+
+
         }
     private fun loginUser() {
 
-        val username = etEmaill.text.toString()
-        val password = etPasswordd.text.toString()
+        val username = etPasswordd.text.toString()
+        val password = usertil.text.toString()
 
         when {
             TextUtils.isEmpty(username) -> Toast.makeText(this,"username is required", Toast.LENGTH_LONG).show()

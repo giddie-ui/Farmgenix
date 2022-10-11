@@ -134,7 +134,7 @@
     </TextView>
 
     <TextView
-        android:id="@+id/text_one_donttwob"
+        android:id="@+id/text_one_donttwobone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
