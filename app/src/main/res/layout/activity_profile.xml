@@ -162,7 +162,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="32dp"
-        android:text="Update"
+        android:text="Update profile"
         android:backgroundTint="@color/teal_200"
 
         app:layout_constraintEnd_toEndOf="@+id/tilEmail"
