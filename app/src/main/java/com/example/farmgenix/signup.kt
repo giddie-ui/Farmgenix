@@ -17,10 +17,8 @@ class signup : AppCompatActivity() {
         setContentView(R.layout.activity_signup)
         btnSignIn.setOnClickListener {
             loginUser()
-
         }
-    }
-
+        }
     private fun loginUser() {
 
         val username = etEmaill.text.toString()
