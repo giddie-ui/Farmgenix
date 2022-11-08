@@ -11,14 +11,14 @@
     android:layout_height="wrap_content"
     android:layout_centerInParent="true">
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
-       android:src="@drawable/logo2">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo3">
 
-    </ImageView>
+        </ImageView>
 
 
 </RelativeLayout>
