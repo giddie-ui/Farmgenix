@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Farmgenix"
         tools:targetApi="31">
         <activity
+            android:name=".breed"
+            android:exported="false" />
+        <activity
             android:name=".cow_card"
             android:exported="false" />
         <activity
