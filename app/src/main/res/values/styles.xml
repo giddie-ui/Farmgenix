@@ -5,9 +5,12 @@
     </style>
 
     <style name="AppTheme.InputField.OnDark" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="android:textColorHint">#60FFFFFF</item>
         <item name="passwordToggleTint">#FFFFFF</item>
     </style>
+    <style name="AlertDialog.AppCompat.Light." parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
+    <item name="android:textColorHint">#60FFF-FFF</item>
+    </style>
+
     <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
         <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
     </style>

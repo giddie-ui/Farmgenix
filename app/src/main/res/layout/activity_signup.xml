@@ -16,7 +16,6 @@
         android:layout_marginTop="70dp"
         android:text="Login"
         android:layout_marginBottom="60dp"
-
         android:textColor="#0B0A0A"
         android:textSize="30sp"
         android:textStyle="bold">
@@ -123,9 +122,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="30dp"
-
         android:layout_marginTop="10dp"
-
         android:layout_marginBottom="30dp"
         android:text="Need a new Account?"
         android:textColor="@color/black"
